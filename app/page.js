@@ -1,11 +1,13 @@
-import Image from 'next/image'
+import NavBar from './components/navbar'
+import Home from './components/homepage'
+import Footer from './components/footer'
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="">
-      <span className="text-[20px] text-green-500 flex justify-center items-center h-[100vh]">
-        Home Page
-      </span>
+      <NavBar />
+      <Home />
+      <Footer/>
     </div>
   )
 }
