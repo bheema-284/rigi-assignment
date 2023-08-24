@@ -205,14 +205,14 @@ export default React.memo(function Footer(props) {
                   height={20}
                 />
                 <a
-                  href="mailto:customercare@travelxp.com"
+                  href="mailto:customercare@gmail.com"
                   className={`text-base ${
                     pathname === "/en"
                       ? " text-white"
                       : " text-black"
                   }`}
                 >
-                  customercare@travelxp.com
+                  customercare@gamailcom
                 </a>
               </li>
             </ul>
@@ -220,7 +220,7 @@ export default React.memo(function Footer(props) {
         </div>
         <div className="flex flex-col items-center justify-between pt-5 mt-5 border-t border-gray-200 sm:flex-row">
           <p className="text-xs text-gray-400 sm:order-2">
-            &copy; {dayjs().format("YYYY")} Travelxp Limited. All rights
+            &copy; {dayjs().format("YYYY")} All rights
             reserved.
           </p>
           <div className="flex space-x-6 sm:order-2">
